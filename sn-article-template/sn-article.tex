@@ -172,6 +172,37 @@ public void funcionA(int n) {
 }
 \end{lstlisting}
 
+
+\begin{enumerate}
+    \item Conteo de operaciones elementales. 
+
+Las operaciones elementales de este ejercicio son las siguientes:
+\begin{itemize}
+    \item \texttt{int total = 0}: $C_1 \times 1$
+    \item \texttt{(int i = 0; i < n; i++)}: $C_2 \times n$
+    \item \texttt{total += i}: $C_3 \times 1$
+    \item \texttt{System.out.println(total)}: $C_4 \times 1$
+\end{itemize}
+
+    \item C\'alculo de la complejidad asint\'otica.
+\end{enumerate}
+
+\textit{Funci\'on A:}
+\[
+F(n) = C1 + (C2 * n) + C3 + C4
+\]
+\textit{Funci\'on A:}
+\[
+F(n) = C2 * n
+\]
+\textit{Funci\'on A:}
+\[
+F(n) = n
+\]
+\[
+O(n)
+\]
+
 \begin{lstlisting}[language=Java,caption={C\'odigo B}]
 public void funcionB(int n) {
     for (int i = 0; i < n; i++) {
@@ -185,7 +216,7 @@ public void funcionB(int n) {
 
 \begin{enumerate}
     \item Conteo de operaciones elementales. 
-\end{enumerate}
+
 Las operaciones elementales de este ejercicio son las siguientes:
 \begin{itemize}
     \item \texttt{(int i = 0; i < n; i++)}: $C_1 \times n$
@@ -193,7 +224,6 @@ Las operaciones elementales de este ejercicio son las siguientes:
     \item \texttt{System.out.println("Procesando coordenadas:" + i + "," + j)}: $C_3 \times 1$
 \end{itemize}
 
-\begin{enumerate}
     \item C\'alculo de la complejidad asint\'otica.
 \end{enumerate}
 
@@ -224,7 +254,7 @@ public void funcionC(int n) {
 \end{lstlisting}
 \begin{enumerate}
     \item Conteo de operaciones elementales. 
-\end{enumerate}
+
 En este ejercicio, las operaciones elementales son las siguientes:
 \begin{itemize}
     \item \texttt{int actual = n}: $C_1 \times 1$
@@ -233,7 +263,6 @@ En este ejercicio, las operaciones elementales son las siguientes:
     \item \texttt{actual = actual / 2}: $C_3 \rightarrow \log n$
 \end{itemize}
 
-\begin{enumerate}
     \item C\'alculo de la complejidad asint\'otica.
 \end{enumerate}
 
@@ -288,8 +317,15 @@ If your manuscript includes potentially identifying patient/participant informat
 
 \section{Discussion}\label{sec12}
 
-Discussions should be brief and focused. In some disciplines use of Discussion or `Conclusion' is interchangeable. It is not mandatory to use both. Some journals prefer a section `Results and Discussion' followed by a section `Conclusion'. Please refer to Journal-level guidance for any specific requirements. 
+El estudio de las tres funciones de código A, B y C demuestra como la estructura de un algoritmo determina su crecimiento asintotico y su coste computacional. Aunque todas reciben como parametro de entrada \(n\), sus costes de ejecución cambian a diversos ritmos en base al crecimiento del tamaño de entrada. Tal comparación deja ver lo importante que es la complejidad algoritmica al evaluar la escalabilidad del software.
 
+El ejercicio A muestra una complejidad lineal temporal \(O(n)\), dado que su operación principal es ejecutada una vez por iteración de bucle que recorre el rango de entrada. Su coste computacional se incrementa de manera proporcional al tamaño de la entrada.
+
+El ejercicio B presenta una complejidad temporal cuadrática \(O(n^2)\), ya que cada uno de sus bucles anidados realiza \(n\) iteraciones. Entonces, el número de ejecuciones de ejecuciones de la instrucción más interna aumenta de forma cuadrática, logrando que esta función sea más costosa para entradas enormes.
+
+El ejercicio C demuestra una complejidad temporal algorítmica \(O(\log n)\), porque el valor de su variable de control se divide para dos en cada iteración, tal reducción, repetidas veces, disminuye de manera sustancial la cantidad de iteraciones necesarias a medida que \(n\) aumenta.
+Para tamaños de entrada lo suficientemente grandes, la función cuadrática crece más rápido en comparación a la lineal, mientras que la función logaritmica crece, de manera considerable, más despacio que ambas. Siendo la función C la que escala de manera más eficiente en base a la cantidad de iteraciones. La función B es la más sensible al aumento del tamaño de la entrada. Y la función A tiene un incremento predecible en la carga de trabajo computacional.
+La notación \(Big O\) describe una cota superior asintótica en lugar del tiempo de ejecución de un programa. Los detalles de implementación, características del hardware, coste de las operaciones y los valores de entrada son aspectos de los cuales depende el tiempo de ejecución. El análisis asintótico da un marco teórico necesario para comparar algoritmos de forma independiente de un entorno de ejecución concreto.
 \section{Conclusion}\label{sec13}
 
 El desarrollo de este taller práctico permitió evidenciar de forma concreta la profunda influencia que tiene la estructura interna de un algoritmo sobre su rendimiento computacional. A través del cálculo detallado de las funciones de coste y su posterior simplificación asintótica, se demostró que el diseño lógico del código es tan crítico como su funcionalidad. Los tres fragmentos analizados, aunque sintácticamente breves en Java, exhibieron comportamientos radicalmente distintos frente al aumento del volumen de datos, reafirmando que no todas las soluciones lógicamente válidas 
