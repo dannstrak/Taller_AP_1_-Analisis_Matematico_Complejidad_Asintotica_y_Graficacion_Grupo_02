@@ -141,14 +141,12 @@
 \maketitle
 
 \section{Introduction}\label{sec1}
+
 En el desarrollo de software, la creación de soluciones efectivas va más allá de lograr que un programa arroje el resultado correcto. A medida que las aplicaciones escalan y el volumen de datos procesados aumenta, la eficiencia de los algoritmos se convierte en un factor crucial. Un código que funciona bien con pequeñas cantidades de información puede volverse inmanejable si su estructura no está optimizada. Por ello, el análisis de la complejidad algorítmica resulta fundamental, ya que nos permite predecir el comportamiento de un programa y evaluar su consumo de tiempo y recursos antes de implementarlo a gran escala.
 
-En el marco de este Taller de Aprendizaje Práctico-Experimental, el presente documento tiene como objetivo aplicar los conceptos de eficiencia algorítmica para evaluar el rendimiento de tres fragmentos de código iterativos escritos en el lenguaje de programación Java. A través de este ejercicio, se busca establecer una relación clara entre el diseño interno de cada algoritmo y su respuesta ante el crecimiento continuo de los datos de entrada, variable que se representará matemáticamente como $n$.
+Para fundamentar este análisis teórico del rendimiento computacional, se consideraron los conceptos formales de cota superior asintótica y eficiencia algorítmica descritos en [4], lo cual permite respaldar de manera rigurosa la evaluación empírica de los fragmentos de código implementados.
 
-Para llevar a cabo este estudio, el análisis de cada bloque de código se divide en tres etapas consecutivas. En la primera fase, se realiza una inspección detallada línea por línea para extraer la función de coste. Esto implica contabilizar las operaciones elementales que ejecuta la computadora, con el fin de construir paso a paso el modelo matemático $f(n)$ exacto. Una vez definida esta ecuación, la segunda fase consiste en la determinación de su límite asintótico superior. En este punto, se simplifica la función original descartando las constantes y los términos de menor impacto para poder clasificar la complejidad del algoritmo utilizando la notación Big O ($\mathcal{O}$).
-
-Finalmente, el análisis analítico se complementa con una demostración empírica y visual mediante la graficación de los resultados obtenidos. Las curvas asintóticas resultantes de los tres ejercicios se proyectarán de manera simultánea en un único plano cartesiano, relacionando el tiempo de ejecución en el eje vertical frente al volumen de datos en el eje horizontal. Esta comparativa final servirá para evidenciar de forma práctica las distintas tasas de crecimiento de cada enfoque, permitiendo concluir visualmente cuál de los tres métodos ofrece el mejor desempeño a largo plazo.
-
+En el marco de este Taller de Aprendizaje Práctico-Experimental, el presente documento tiene como objetivo aplicar los conceptos de eficiencia algorítmica para evaluar el rendimiento de tres fragmentos de código iterativos escritos en el lenguaje de programación Java. A través de este ejercicio, se busca establecer una relación clara entre el diseño interno de cada algoritmo y su respuesta ante el crecimiento continuo de los datos de entrada.
 
 \section{Results}\label{sec2}
 
@@ -383,8 +381,11 @@ Bhargava, A. Y. (2016). \textit{Grokking Algorithms: An illustrated guide for pr
 \bibitem{lafore2017} 
 Lafore, R. (2017). \textit{Data Structures and Algorithms in Java} (2\textsuperscript{da} ed.). Sams Publishing.
 
-\bibitem{astudillo2026}
-Galarza, D. (2026). \textit{Análisis Matemático y Complejidad Asintótica} [Diapositivas de clase]. Asignatura de Estructura de Datos y Algoritmos, Escuela Politécnica Nacional.
+\bibitem{galarza2026}
+Galarza, D. (2026). \textit{Análisis Matemático y Complejidad Asintótica} [Diapositivas de clase]. Asignatura de Estructura de Datos y Algoritmos II, Escuela Politécnica Nacional.
+
+\bibitem{cormen2001}
+T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, \textit{Introduction to Algorithms}, 2nd ed., Cambridge, MA: MIT Press, 2001.
 
 \end{thebibliography}
 

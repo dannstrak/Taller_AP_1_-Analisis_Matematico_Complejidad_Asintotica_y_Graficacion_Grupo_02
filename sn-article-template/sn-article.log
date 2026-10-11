@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.9)  10 OCT 2026 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.9)  10 OCT 2026 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,24 +738,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 {C:/Users/ASUS GAMING/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (C:\Users\ASUS GAMING\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 165.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 166.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 163.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 164.
  (C:\Users\ASUS GAMING\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.03749> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 168.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 166.
  (C:\Users\ASUS GAMING\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.03749> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 168.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
 
-Overfull \hbox (60.0044pt too wide) in paragraph at lines 210--211
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (60.0044pt too wide) in paragraph at lines 208--209
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -763,91 +763,77 @@ Overfull \hbox (60.0044pt too wide) in paragraph at lines 210--211
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<grafico1.jpeg, id=82, 1606.0pt x 961.5925pt>
+<grafico1.jpeg, id=85, 1606.0pt x 961.5925pt>
 File: grafico1.jpeg Graphic file (type jpg)
 <use grafico1.jpeg>
-Package pdftex.def Info: grafico1.jpeg  used on input line 289.
+Package pdftex.def Info: grafico1.jpeg  used on input line 287.
 (pdftex.def)             Requested size: 223.20227pt x 133.63896pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-Underfull \hbox (badness 1859) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 of a clin-i-cal trial then addi-tional infor-ma-tion will be required. Please visit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 ([][]$https : / / www . nature . com / nature-[]research / editorial-[]policies$[][]) for Nature Port-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 fo-lio jour-nals, ([][]$https : / / www . springer . com / gp / authors-[]editors / journal-[]author /
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 journal-[]author-[]helpdesk / publishing-[]ethics / 14214$[][]) for Springer Nature jour-nals,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-\OT1/cmr/m/n/10 or ([][]$https : / / www . biomedcentral . com / getpublished / editorial-[]policies # ethics + and +
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.318 \section
-              {Discussion}\label{sec12} <./grafico1.jpeg>]
+l.294 P
+       ara la funcion C, se nota un crecimiento inicial que con medida que a... <./grafico1.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 332--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 349--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
  []
 
@@ -855,21 +841,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--363
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--369
-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8] (sn-article.aux)
@@ -886,17 +857,17 @@ Package rerunfilecheck Info: File `sn-article.out' has not changed.
 (rerunfilecheck)             Checksum: D9E16A4A55D9ADE6A8307F059FAF99B6;599.
  ) 
 Here is how much of TeX's memory you used:
- 14945 strings out of 467392
- 231795 string characters out of 5402687
- 850280 words of memory out of 5000000
- 44004 multiletter control sequences out of 15000+600000
+ 14946 strings out of 467392
+ 231838 string characters out of 5402687
+ 847401 words of memory out of 5000000
+ 44007 multiletter control sequences out of 15000+600000
  652722 words of font info for 134 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 89i,8n,93p,955b,1427s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,93p,1100b,1997s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS GAMING\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi602\tcrm1000.pk><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ASUS GAMING/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on sn-article.pdf (8 pages, 455157 bytes).
+Output written on sn-article.pdf (8 pages, 452082 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
