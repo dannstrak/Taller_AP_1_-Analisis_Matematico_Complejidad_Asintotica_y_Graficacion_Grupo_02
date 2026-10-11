@@ -118,7 +118,7 @@
 %% Sample for unstructured abstract %%
 %%==================================%%
 
-\abstract{The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. Authors are advised to check the author instructions for the journal they are submitting to for word limits and if structural elements like subheadings, citations, or equations are permitted.}
+\abstract{El análisis de la complejidad temporal y asintótica es fundamental para evaluar la escalabilidad de algoritmos sobre grandes volúmenes de datos. En el presente trabajo se analizan y evaluan 3 bloques de código mediante su complejidad algorítmica, determinando sus funciones de coste, las cuales se grafican para evidenciar visualmente las diferencias de rendimiento entre los algoritmos evaluados. Los resultados muestran una clara diferencia en la eficiencia mediante el crecimiento del tiempo de ejecución en función del tamaño de la entrada, de esta manera se destaca la importancia de la notación Big O como herramienta analítica para optimizar el consumo de recursos del sistema antes de su implementación final.}
 
 %%================================%%
 %% Sample for structured abstract %%
@@ -132,7 +132,7 @@
 % 
 % \textbf{Conclusion:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.}
 
-\keywords{keywordadad, Keyword2, Keyword3, Keyword4}
+\keywords{Complejidad asintótica, Notación Big O, Algoritmos, Función.}
 
 %%\pacs[JEL Classification]{D8, H51}
 
@@ -324,17 +324,36 @@ Finalmente, el análisis gráfico consolidó estas abstracciones teóricas en un
 
 \section*{Declarations}
 
-Some journals require declarations to be submitted in a standardised format. Please check the Instructions for Authors of the journal to which you are submitting to see if you need to complete this section. If yes, your manuscript must contain the following sections under the heading `Declarations':
+Declaración de transparencia: Uso de Inteligencia Artificial
 
 \begin{itemize}
-\item Funding
-\item Conflict of interest/Competing interests (check journal-specific guidelines for which heading to use)
-\item Ethics approval and consent to participate
-\item Consent for publication
-\item Data availability 
-\item Materials availability
-\item Code availability 
-\item Author contribution
+\item \textbf{Herramienta(s) y versión:} 
+ChatGPT-4o, Gemini Pro \\
+\item \textbf{Propósito de uso:} 
+El uso de inteligencia artificial se empleo para el reforzamiento de las bases teóricas y la corrección del estilo del documento, además de una guía para la instalación de los paquetes necesarios para la creación del mismo. \\
+\item \textbf{Prompts / Instrucciones utilizadas:} \\
+\\
+Para entender las bases del conteo y las constantes: \\
+``Explícame cómo se asignan las constantes de coste ($c_1, c_2, \dots$) en el análisis de código en Java. ¿Corresponden exclusivamente a la declaración de variables o a cualquier instrucción, y cómo se combinan con las estructuras de control?" \\
+\\
+Para aclarar las reglas de los bucles y la complejidad logarítmica:\\
+``¿Cómo afecta la condición de salida y el ritmo de avance de un bucle (for o while) a su complejidad asintótica? Indícame exactamente cuándo una estructura genera un coste lineal ($n$) y cuándo genera un coste logarítmico ($\log n$)." \\
+\\
+Para la descarga e implementación de paquetes en LaTeX:\\
+``Proporcióname un paso a paso detallado para descargar e instalar los paquetes necesarios para compilar un documento en LaTeX, incluyendo la configuración de un entorno de desarrollo adecuado en VSCode y la verificación de la instalación." \\
+\\
+Para estructurar y alinear el código en LaTeX: \\
+``Ayúdame a estructurar la respuesta en LaTeX para un deber. Quiero que las operaciones elementales aparezcan centradas usando un entorno de matriz , asegurando que las líneas de código usen tipografía de código y los costes usen subíndices matemáticos." \\
+\\
+Para una correcta redacción en el documento: \\
+``Proporcioname un esquema detallado del contenido que debe tener un abstract y la declaración del uso de inteligencia artificial en un documento académico"
+\\
+\item \textbf{Integración en el trabajo:} 
+El contenido generado por la inteligencia artificial se empleó como guía para la implementación de las herramientas de trabajo, los contenidos teóricos y la redacción del documento, sin embargo, el análisis de los algoritmos y la interpretación de los resultados fueron realizados por los autores. \\
+\item \textbf{Verficación humana:} 
+Todo el contenido generado fue revisado de forma manual y rigurosa por los autores, quienes verificaron la veracidad de la información y la coherencia de los contenidos con el material proporcionado en clase. \\
+\item \textbf{Responsabilidad y límites:}
+Se asume la autoría y responsabilidad del contenido final, asegurando que la inteligencia artificial no sustituyó el análisis crítico ni la interpretación de los resultados, sino que sirvió como apoyo en la redacción y organización del documento. \\
 \end{itemize}
 
 \noindent
